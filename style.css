@@ -1,22 +1,74 @@
-*{
+  *{
     margin: 0;
     padding: 0;
-}
-.header{
+  }
 
-height: 8rem;
-position: sticky;
-top: 0;
-background-color: mediumorchid;
-color: white;
-font-size: 30px;
-display: grid;
-justify-content: center;
-align-items: center;
-box-shadow: 2px 4px 8px 1px #5d1b6d;
+  .content{
+    font-size: 30px;
+    padding: 20px;
+  }
 
-}
-.content{
-font-size: 30px;
-padding: 16px;
-}
+  header a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .MyHeader{
+    height:50px;
+    position: sticky;
+    top: 0;
+    background-color: #a9386d;
+    box-shadow: 2px 4px 8px 1px #5d1b6d;
+  }
+
+  ul.MyMenu{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+
+  }
+  
+  ul.MyMenu li{
+    float:left;
+  }
+
+  .LogoName  {
+    float: left;
+  } 
+
+  .LogoName h1 {
+    font-size: 1.5em;
+    margin: .7em 0 .3em 0;
+    display: inline-block;
+  }  
+
+  .LogoName img {
+    max-width: 50px;
+    float: left;
+    margin: 0 10px 0 0;
+    border-radius: 50px;
+  }
+
+  .MenuBar{
+    float: right;
+  }
+
+  .MenuBar ul, li {
+    margin: 0; 
+    padding: 0;
+  }
+  
+  .MenuBar li {
+    display: inline-block;
+    margin: 1.4em 1em 1em 1em;
+  }
+
+  li:hover{
+    background-color: #ff7cb9;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: 2px 2px 4px 1px #5d1b6d;
+  }
+ .LogoName img:hover{
+   box-shadow: 2px 2px 4px 1px #5d1b6d;
+  }
