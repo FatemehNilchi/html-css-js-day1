@@ -1,24 +1,29 @@
   *{
     margin: 0;
     padding: 0;
+    font-family: 'Rubik', sans-serif;
   }
 
   .content{
     font-size: 30px;
-    padding: 20px;
+    padding: 40px;
   }
 
   header a{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
   }
 
   .MyHeader{
-    height:50px;
+    height:70px;
     position: sticky;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    align-items: center;
     top: 0;
     background-color: #a9386d;
-    box-shadow: 2px 4px 8px 1px #5d1b6d;
+    box-shadow: 0px 2px 8px 0px #5d1b6d;
   }
 
   ul.MyMenu{
@@ -33,24 +38,24 @@
   }
 
   .LogoName  {
-    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   } 
 
   .LogoName h1 {
-    font-size: 1.5em;
-    margin: .7em 0 .3em 0;
+    font-size: 1.2em;
+    margin: 0.7em 0 0.3em 0;
     display: inline-block;
+    display: flex;
+    align-items: center;
   }  
 
   .LogoName img {
-    max-width: 50px;
+    max-width: 40px;
     float: left;
     margin: 0 10px 0 0;
     border-radius: 50px;
-  }
-
-  .MenuBar{
-    float: right;
   }
 
   .MenuBar ul, li {
@@ -59,16 +64,15 @@
   }
   
   .MenuBar li {
-    display: inline-block;
+    
     margin: 1.4em 1em 1em 1em;
   }
 
   li:hover{
-    background-color: #ff7cb9;
-    border-radius: 5px;
-    color: #fff;
-    box-shadow: 2px 2px 4px 1px #5d1b6d;
+    
+    color: #ffabd5;  
   }
+
  .LogoName img:hover{
    box-shadow: 2px 2px 4px 1px #5d1b6d;
   }
